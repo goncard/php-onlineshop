@@ -1,0 +1,203 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+height: 100%;
+padding:0px;
+margin:0px;
+}
+
+body {
+	background-color:#000;
+	font-family: Calibri;
+	font-size: 14px;
+	color:#FFF;
+	padding:0px;
+	margin:0px;
+}
+#head{
+	position:absolute;
+	width:700px;
+	height:200px;
+	left: 151px;
+	top: 8px;
+	
+}
+#inicio{
+	width:866;
+	height:544;
+	background-color:#000
+}
+#menu_admin{
+	font-size:14px;
+	font-weight:bold;
+	left: 899px;
+	top: 318px;
+	width: 143px;
+	height:182px;
+	position:absolute;
+	background-image:url(imagens/admin_menu.jpg);
+	background-repeat:no-repeat;
+	
+}
+
+#login{
+	position:absolute;
+	font-size:12px;
+	left: 882px;
+	top: 320px;
+	width: 164px;
+	background-image:url(imagens/login.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	
+}
+#menu{
+	position:absolute;
+	font-size:12px;
+	left: 196px;
+	top: 320px;
+	width: 158px;
+	height: 171px;
+	background-image:url(imagens/menu.png);
+	background-position:center;
+	background-repeat:no-repeat;
+
+}
+#pesquisa{
+	position:absolute;
+	left: 400px;
+	top: 261px;
+	width: 377px;
+	height: 51px;
+	background-image:url(imagens/search.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#quem{
+	position:absolute;
+	left: 410px;
+	top: 320px;
+	width: 386px;
+}
+.textbox{
+	width:100px;
+	height:15px;
+	font-size:13px;
+}
+	
+
+#head{
+	position:absolute;
+}
+	
+#foot{
+	font-size:12px;
+	background-image:url(imagens/pe.jpg);
+	background-position:center;
+	position:absolute;
+	text-align:center;
+	left: 235px;
+	top: 1150px;
+	width: 798px;
+	height: 29px;
+}
+#txtfoot{
+	position:absolute;
+	left: 225px;
+	top: 8px;
+	width: 361px;
+}
+#novidades{
+	position:absolute;
+	left: 220px;
+	top: 550px;
+	width: 352px;
+	height: 265px;
+}
+#promo{
+	position:absolute;
+	left: 645px;
+	top: 550px;
+	width: 352px;
+	height: 265px;
+}
+#listaprod{
+	position:absolute;
+	left: 378px;
+	top: 333px;
+	width: 495px;
+}
+
+
+#menubor{
+	font-size:14px;
+	color:#FFF;
+}
+
+.registo{
+	color:#FFF;
+}
+#reg_user_form label.error {
+  background:url("imagens/unchecked.gif") no-repeat 0px 0px;
+  padding-left: 16px;
+  padding-bottom: 2px;
+  font-size:9px;
+  font-weight: bold;
+  color: #C00
+}
+
+#reg_user_form label.checked {
+  background:url("images/checked.gif") no-repeat 0px 0px;
+    font-size:9px
+}
+
+#reg_user_form .success_msg {
+  font-weight: bold;
+  color: #03F;
+  margin-left: 19px;
+}
+
+.tableheaders
+{
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+}
+.botaotbl{
+	width:80px;
+	font-family:Calibri;
+	}
+	
+.t_end{
+	font-size:12px;
+}
+#logged{
+
+
+	position:absolute;
+	left: 773px;
+	top: 259px;
+	width: 270px;
+	height: 51px;
+	background-image:url(imagens/sear.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.object{
+	font-family:Calibri;
+	width:100px;}
+.cart{
+	text-align:center;
+	font-size:14px;
+	position:absolute;
+	left: 878px;
+	top: 320px;
+	width: 172px;
+	height: 112px;
+	background-image:url(imagens/cart.jpg);
+	background-position:center;
+	background-repeat:no-repeat;}
+	
